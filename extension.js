@@ -137,7 +137,7 @@ const MyPopup = GObject.registerClass(
             super._init(0);
             let icon = new St.Icon({
                 icon_name: 'security-low-symbolic',
-                gicon: Gio.icon_new_for_string(Me.dir.get_path() + '/music.svg'),
+                gicon: Gio.icon_new_for_string(Me.dir.get_path() + '/icon.svg'),
                 style_class: 'system-status-icon',
             });
             this.add_child(icon);
