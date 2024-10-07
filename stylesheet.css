@@ -1,0 +1,16 @@
+.message-label {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent background */
+    color: white;
+    /* Text color */
+    padding: 10px;
+    /* Padding around text */
+    border-radius: 5px;
+    /* Rounded corners */
+    position: fixed;
+    /* Fix position if needed */
+    top: 50px;
+    /* Adjust top position */
+    left: 10px;
+    /* Adjust left position */
+}

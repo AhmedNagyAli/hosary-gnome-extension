@@ -1,0 +1,7 @@
+{
+    "uuid": "hosary@nagy.com",
+    "name": "Housary",
+    "description": "Gnmoe extension to stream music from youtube music",
+    "shell-version": ["40", "41", "42"],
+    "version": 1.0
+}
