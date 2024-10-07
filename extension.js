@@ -151,7 +151,6 @@ const MyPopup = GObject.registerClass(
         populateMenu(data) {
             data.forEach(item => {
                 let meItem = new PopupMenu.PopupMenuItem(item.name);
-                meItem.add_child(new St.Label({ text: item.name }));
                 this.menu.addMenuItem(meItem);
 
                 meItem.connect('activate', () => {
