@@ -8,6 +8,9 @@ const PopupMenu = imports.ui.popupMenu;
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 const quranData = [{
+        "name": "إذاعة تفسير الشعراوي",
+        "src": "https://server03.quran-uni.com:7148/;*.mp3"
+    }, {
         "name": "الفاتحة",
         "src": "https://server13.mp3quran.net/husr/001.mp3"
     },
